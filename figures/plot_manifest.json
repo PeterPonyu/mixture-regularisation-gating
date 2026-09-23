@@ -1,0 +1,41 @@
+{
+  "generator": "R: ggplot2/grid/Cairo",
+  "font": "Arial",
+  "figures": {
+    "fourbg_unclamped_edge": {
+      "points_per_panel": [6, 6, 6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width inter-row gutter"
+    },
+    "clamp_vs_unclamped": {
+      "points_per_panel": [6, 6, 6, 6, 6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width inter-row gutter"
+    },
+    "purity_callout": {
+      "points_per_panel": 6,
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width footer"
+    },
+    "plane_stats_unclamped": {
+      "points_per_panel": [6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width footer"
+    },
+    "factorial_edge": {
+      "points_per_panel": [15, 15],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width footer"
+    },
+    "window_extension": {
+      "points_per_panel": [18, 18, 12, 12],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width inter-row gutter"
+    },
+    "setty_umap": {
+      "points_per_panel": [450, 450, 450, 450, 450, 450],
+      "lettering": ["Uncoupled: w = 0", "Coupled: w = 1"],
+      "legend": "one horizontal full-width inter-row gutter"
+    }
+  }
+}

@@ -1,0 +1,1333 @@
+{
+  "scope": "descriptive; dose only epochs 200--219, endpoint difference 200 to 220",
+  "inputs": {
+    "evidence/factorial_results.json": "b969c1beaf2860155b506ea2d5934da2cf863694371cf8dd82d2c57b79714aab",
+    "evidence/run-archive/results.json": "42957e8c23acdc7f110db2edf2ae8a106d9126b493d58a92d7bc4634032e56a0"
+  },
+  "statistical_unit": "six shared background-by-seed warmups; arms nested within each; two backgrounds are fixed, not sampled biological replicates",
+  "rows": [
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7130333411051528,
+      "edge_220": 0.711265252195539,
+      "edge_change": -0.0017680889096137742,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7130333411051528,
+      "edge_220": 0.711265252195539,
+      "edge_change": -0.0017680889096137742,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "dose_200_220": 46.5993776512146,
+      "active_180_200": 148,
+      "active_200_220": 28,
+      "batches_per_window": 260,
+      "edge_200": 0.6135422102314152,
+      "edge_220": 0.643660415903363,
+      "edge_change": 0.030118205671947784,
+      "paired_anchor_change": 0.03188629458156156,
+      "paired_anchor_edge_220": -0.06760483629217606
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "dose_200_220": 161.08505582809448,
+      "active_180_200": 140,
+      "active_200_220": 34,
+      "batches_per_window": 260,
+      "edge_200": 0.4096305148182043,
+      "edge_220": 0.4312608755529337,
+      "edge_change": 0.021630360734729404,
+      "paired_anchor_change": 0.023398449644343178,
+      "paired_anchor_edge_220": -0.28000437664260536
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7130333411051528,
+      "edge_220": 0.711265252195539,
+      "edge_change": -0.0017680889096137742,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7097614051449443,
+      "edge_220": 0.7080904639776172,
+      "edge_change": -0.0016709411673271335,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7097614051449443,
+      "edge_220": 0.7080904639776172,
+      "edge_change": -0.0016709411673271335,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "dose_200_220": 34.91325578212738,
+      "active_180_200": 154,
+      "active_200_220": 25,
+      "batches_per_window": 260,
+      "edge_200": 0.6896285070334965,
+      "edge_220": 0.6701523276599052,
+      "edge_change": -0.019476179373591362,
+      "paired_anchor_change": -0.01780523820626423,
+      "paired_anchor_edge_220": -0.037938136317712035
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "dose_200_220": 124.95861911773682,
+      "active_180_200": 155,
+      "active_200_220": 25,
+      "batches_per_window": 260,
+      "edge_200": 0.6208190387369683,
+      "edge_220": 0.6179767733626442,
+      "edge_change": -0.002842265374324082,
+      "paired_anchor_change": -0.0011713242069969487,
+      "paired_anchor_edge_220": -0.09011369061497299
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7097614051449443,
+      "edge_220": 0.7080904639776172,
+      "edge_change": -0.0016709411673271335,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7088365586383772,
+      "edge_220": 0.7118287091008004,
+      "edge_change": 0.002992150462423182,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7088365586383772,
+      "edge_220": 0.7118287091008004,
+      "edge_change": 0.002992150462423182,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "dose_200_220": 34.917847137451176,
+      "active_180_200": 155,
+      "active_200_220": 24,
+      "batches_per_window": 260,
+      "edge_200": 0.6457604725266185,
+      "edge_220": 0.6567265096759151,
+      "edge_change": 0.01096603714929656,
+      "paired_anchor_change": 0.007973886686873377,
+      "paired_anchor_edge_220": -0.05510219942488537
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "dose_200_220": 108.79435396194458,
+      "active_180_200": 157,
+      "active_200_220": 22,
+      "batches_per_window": 260,
+      "edge_200": 0.5905085730569526,
+      "edge_220": 0.5576613737548688,
+      "edge_change": -0.032847199302083796,
+      "paired_anchor_change": -0.03583934976450698,
+      "paired_anchor_edge_220": -0.15416733534593163
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 260,
+      "edge_200": 0.7088365586383772,
+      "edge_220": 0.7118287091008004,
+      "edge_change": 0.002992150462423182,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6663347137316769,
+      "edge_220": 0.665361861565766,
+      "edge_change": -0.0009728521659108091,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6663347137316769,
+      "edge_220": 0.665361861565766,
+      "edge_change": -0.0009728521659108091,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "dose_200_220": 19.575314440727233,
+      "active_180_200": 180,
+      "active_200_220": 16,
+      "batches_per_window": 320,
+      "edge_200": 0.6332301164730665,
+      "edge_220": 0.6249578994156001,
+      "edge_change": -0.008272217057466391,
+      "paired_anchor_change": -0.007299364891555582,
+      "paired_anchor_edge_220": -0.04040396215016595
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "dose_200_220": 148.52446365356445,
+      "active_180_200": 178,
+      "active_200_220": 30,
+      "batches_per_window": 320,
+      "edge_200": 0.386182305195308,
+      "edge_220": 0.4010173728788419,
+      "edge_change": 0.014835067683533931,
+      "paired_anchor_change": 0.01580791984944474,
+      "paired_anchor_edge_220": -0.2643444886869241
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6663347137316769,
+      "edge_220": 0.665361861565766,
+      "edge_change": -0.0009728521659108091,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6708604483007954,
+      "edge_220": 0.6702787089988825,
+      "edge_change": -0.0005817393019128536,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6708604483007954,
+      "edge_220": 0.6702787089988825,
+      "edge_change": -0.0005817393019128536,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "dose_200_220": 26.70246449947357,
+      "active_180_200": 184,
+      "active_200_220": 20,
+      "batches_per_window": 320,
+      "edge_200": 0.6322980345756918,
+      "edge_220": 0.6287752016602343,
+      "edge_change": -0.003522832915457519,
+      "paired_anchor_change": -0.0029410936135446653,
+      "paired_anchor_edge_220": -0.04150350733864827
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "dose_200_220": 127.22998142242432,
+      "active_180_200": 192,
+      "active_200_220": 26,
+      "batches_per_window": 320,
+      "edge_200": 0.3854288150334295,
+      "edge_220": 0.39280793102031514,
+      "edge_change": 0.00737911598688562,
+      "paired_anchor_change": 0.007960855288798474,
+      "paired_anchor_edge_220": -0.2774707779785674
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.6708604483007954,
+      "edge_220": 0.6702787089988825,
+      "edge_change": -0.0005817393019128536,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.668225014320459,
+      "edge_220": 0.6681423782291461,
+      "edge_change": -8.263609131287097e-05,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.668225014320459,
+      "edge_220": 0.6681423782291461,
+      "edge_change": -8.263609131287097e-05,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "dose_200_220": 17.14179394721985,
+      "active_180_200": 179,
+      "active_200_220": 14,
+      "batches_per_window": 320,
+      "edge_200": 0.6362321698547294,
+      "edge_220": 0.62876487214882,
+      "edge_change": -0.00746729770590937,
+      "paired_anchor_change": -0.007384661614596499,
+      "paired_anchor_edge_220": -0.039377506080326086
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "dose_200_220": 100.19999361038208,
+      "active_180_200": 175,
+      "active_200_220": 20,
+      "batches_per_window": 320,
+      "edge_200": 0.5257184488204012,
+      "edge_220": 0.5164686914785515,
+      "edge_change": -0.00924975734184974,
+      "paired_anchor_change": -0.00916712125053687,
+      "paired_anchor_edge_220": -0.15167368675059467
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "dose_200_220": 0.0,
+      "active_180_200": 0,
+      "active_200_220": 0,
+      "batches_per_window": 320,
+      "edge_200": 0.668225014320459,
+      "edge_220": 0.6681423782291461,
+      "edge_change": -8.263609131287097e-05,
+      "paired_anchor_change": 0.0,
+      "paired_anchor_edge_220": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "dose_difference": 128.94914921283723,
+      "edge_change_difference": 0.023107284741000322,
+      "edge_220_difference": -0.22394052653675817
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "dose_difference": 100.52751692295075,
+      "edge_change_difference": 0.01090194890234314,
+      "edge_220_difference": -0.23596727063991912
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "dose_difference": 83.05819966316223,
+      "edge_change_difference": -0.00178245963594037,
+      "edge_220_difference": -0.11229618067026859
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "dose_difference": 114.48567817687987,
+      "edge_change_difference": -0.00848784493721838,
+      "edge_220_difference": -0.2123995403504293
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "dose_difference": 90.04536333560944,
+      "edge_change_difference": 0.01663391399926728,
+      "edge_220_difference": -0.05217555429726095
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "dose_difference": 73.8765068244934,
+      "edge_change_difference": -0.043813236451380355,
+      "edge_220_difference": -0.09906513592104627
+    }
+  ],
+  "correlations": {
+    "uncapped_all": {
+      "n": 12,
+      "pearson": 0.22996485158317392,
+      "spearman": 0.44755244755244755,
+      "leave_one_seed_out_pearson": {
+        "0": -0.06364522010956311,
+        "1": 0.14273251207539514,
+        "2": 0.47871383070404566
+      }
+    },
+    "uncapped_setty": {
+      "n": 6,
+      "pearson": 0.7733484845770902,
+      "spearman": 0.6571428571428571,
+      "leave_one_seed_out_pearson": {
+        "0": 0.5362147654711799,
+        "1": 0.7545327277203293,
+        "2": 0.9751479352677395
+      }
+    },
+    "uncapped_endo": {
+      "n": 6,
+      "pearson": 0.02154678887692646,
+      "spearman": 0.2,
+      "leave_one_seed_out_pearson": {
+        "0": -0.3012674394760846,
+        "1": -0.1461565077810494,
+        "2": 0.27616130160959074
+      }
+    },
+    "within_pair_fast_minus_slow": {
+      "n": 6,
+      "pearson": 0.6275363810584117,
+      "spearman": 0.6,
+      "leave_one_seed_out_pearson": {
+        "0": 0.8438150017366713,
+        "1": 0.8021161295076068,
+        "2": 0.04012758392501899
+      }
+    }
+  },
+  "scale_gate_sensitivity": [
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 1,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 259
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 28,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 232
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 102,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 158
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 260
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 34,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 226
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 123,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 137
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 260
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 25,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 235
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 101,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 159
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 260
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 25,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 235
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 98,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 162
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 260,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 260
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 24,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 236
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 100,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 160
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 260
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 22,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 238
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 102,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 158
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 16,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 304
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 204,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 116
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 30,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 290
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 124,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 196
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 20,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 300
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 149,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 171
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 26,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 294
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 132,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 188
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": 320,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 1.0,
+      "analytically_active_batches": 14,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 306
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "factor": 2.0,
+      "analytically_active_batches": 201,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 119
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 320
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 1.0,
+      "analytically_active_batches": 20,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 300
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "factor": 2.0,
+      "analytically_active_batches": 184,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 136
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 0.5,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 1.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "factor": 2.0,
+      "analytically_active_batches": 0,
+      "above_upper_cap": null,
+      "below_or_at_lower_gate": 0
+    }
+  ],
+  "cautions": [
+    "No batch-level gradient dose archived for epochs 180--199; their active-batch counts do not recover it.",
+    "Exposure is post-treatment and its gradient magnitude varies with latent scale, fitting and optimisation; correlation is not dose-response causality.",
+    "Analytic scale gates rescale both z and fitted Gaussian parameters in ten dimensions, without retraining or re-fitting; they are not endpoint predictions."
+  ]
+}

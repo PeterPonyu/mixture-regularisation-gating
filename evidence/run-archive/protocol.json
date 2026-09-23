@@ -1,0 +1,56 @@
+{
+  "name": "Absolute-warmup fixed continuation",
+  "datasets": [
+    "setty",
+    "endo"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "arms": [
+    [
+      "cap5_a100",
+      5.0,
+      100,
+      1.0
+    ],
+    [
+      "cap5_a20",
+      5.0,
+      20,
+      1.0
+    ],
+    [
+      "none_a100",
+      null,
+      100,
+      1.0
+    ],
+    [
+      "none_a20",
+      null,
+      20,
+      1.0
+    ],
+    [
+      "w0",
+      null,
+      20,
+      0.0
+    ]
+  ],
+  "start_epoch": 200,
+  "end_epoch": 220,
+  "absolute_warmup": 180,
+  "refit_epochs": [
+    200,
+    210
+  ],
+  "n_endpoint_arms": 30,
+  "scientific_updates": 8700,
+  "matching": "restore full model/BN/optimizer/mixture from each own endpoint; common saved anchor RNG across arms; new shared deterministic permutations",
+  "gradient_dose": "sum of effective weight times norm of unweighted clipped mixture-loss gradient w.r.t. latent, logged per batch; diagnostic not parameter displacement",
+  "budget": "GPU sequential; CPU2 threads"
+}

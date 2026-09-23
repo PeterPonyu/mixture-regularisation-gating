@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "study": "mixture-regularisation-gating",
+  "version": "1.0.0",
+  "scope": "Distributed source/research files and separately downloadable model states. Excludes this manifest and SHA256SUMS to avoid self-reference.",
+  "files": {
+    ".gitignore": {
+      "sha256": "f4e59c8269098248d67103def38427e9bdafb7b9ab615b896ccce9408a5ba93a",
+      "bytes": 161,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    ".zenodo.json": {
+      "sha256": "8851a898eae3ff3989f0184710eed091af7d87b0b923aad2644790a74b79e9d1",
+      "bytes": 1236,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "AUDIT.md": {
+      "sha256": "f54d2bf31b25881f55bb0174dff5f18011f8d0b87437883001089caafadb106e",
+      "bytes": 1552,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "CITATION.cff": {
+      "sha256": "02a6ab67785c29c93d1b23edf832ea100a08c1ba54dd745509a52bd461936dde",
+      "bytes": 1160,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "LICENSE": {
+      "sha256": "d36a23d2cae0daf36fd1bfd3b15131c3816cd829d4ff7dc71379c75ef768a93f",
+      "bytes": 1123,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "LICENSE-CC-BY-4.0": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "LICENSE-MIT": {
+      "sha256": "10ef938551816fda8e6981789fd207e905524d51abd3023de441f7aac6dedfd1",
+      "bytes": 1064,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "NOTICE.md": {
+      "sha256": "11b4e30d360f96d67965f2cd37aa9038069141a5181de050dd27e13a9e3120c3",
+      "bytes": 1174,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "README.md": {
+      "sha256": "c0b9c79df99174235b45c99658437dc309a88793ae52dcb4f3cba653ea13c24e",
+      "bytes": 7836,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "build.sh": {
+      "sha256": "4aa643bbf682544ddc7dc631e714413ce14de9113afed020034bf35113f76ab4",
+      "bytes": 638,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/EXPOSURE_METHODS.md": {
+      "sha256": "722313812e73028afc825b46fe83e0c077de544c440b7c6b273307646d5a937e",
+      "bytes": 2439,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/dpmm-transformer-prior-20260907/sweep_scores.json": {
+      "sha256": "25a68dd7bb2f8dff0356e8c6be62646eea87799dd7cc6c6b376c9b826df36409",
+      "bytes": 94980,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/dpmm-transformer-prior-unclamped-20260907/sweep_scores.json": {
+      "sha256": "51dd6b74fcdf46a3ed524c40930d106a93ceb1a3832e0ef3c1731c72ec767c4a",
+      "bytes": 97835,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/exposure_diagnostic.json": {
+      "sha256": "13054e867065f17634628f6ad475af5789b119fbba0b3c83ee1724fc14e589e8",
+      "bytes": 34025,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/factorial_results.json": {
+      "sha256": "b969c1beaf2860155b506ea2d5934da2cf863694371cf8dd82d2c57b79714aab",
+      "bytes": 4486691,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/new_protocol.json": {
+      "sha256": "181f02bd09192115f95c5499d381c3445932dbaed3edaac1e688a9ad333dd71c",
+      "bytes": 998,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/new_results.json": {
+      "sha256": "42957e8c23acdc7f110db2edf2ae8a106d9126b493d58a92d7bc4634032e56a0",
+      "bytes": 5939628,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/purity.csv": {
+      "sha256": "55e55ab28ca1c46bd5a23405f9737854028f983594707ef9e661015fe636e1ef",
+      "bytes": 470,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a100.json": {
+      "sha256": "a6127e624e9ae9133df981949b1d32bfd1c33c21f57a2bb5bf79fa30697c5d2d",
+      "bytes": 168238,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a100.npz": {
+      "sha256": "2494dfc241a064ac7e1ec1ecb473e3031747702e4a06ea56c354be5bf80ab0db",
+      "bytes": 170202,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a100.pt": {
+      "sha256": "3f63fc80e77f41188e06cd1bc3211efa05f041faf260ed7b597930483eea74a2",
+      "bytes": 50693323,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a20.json": {
+      "sha256": "acc2d856062062296b02e09293c160dfd3a39c81edcf0f572ea43058bf5f3e8d",
+      "bytes": 168004,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a20.npz": {
+      "sha256": "2494dfc241a064ac7e1ec1ecb473e3031747702e4a06ea56c354be5bf80ab0db",
+      "bytes": 170202,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/cap5_a20.pt": {
+      "sha256": "bbb00a5620dec754d054f84e8dd4e25053002deaa3e934593870d53574b6d298",
+      "bytes": 50693011,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a100.json": {
+      "sha256": "e24674667f51ac429c4bfc61f2381a5782318374f1ebe677880b72b4384fb620",
+      "bytes": 158918,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a100.npz": {
+      "sha256": "74f52e3f30258f09a773197effe3536e3d86420288b4d79843c1563e3cd18379",
+      "bytes": 142292,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a100.pt": {
+      "sha256": "61055de87faa1474663fd90bfb6c6ae15aaa42da1709e7530608db153def009b",
+      "bytes": 50692235,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a20.json": {
+      "sha256": "5c8dc2bbcd971de0c3978ef391a249cb9ecd389ddb2694c2b2dd1811d9e7d0d4",
+      "bytes": 157643,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a20.npz": {
+      "sha256": "802a59baeebbccbbd250d10f11a095c0b0d7f44ee4ff469d6739b28cd81447e0",
+      "bytes": 165099,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/none_a20.pt": {
+      "sha256": "8cc01a7ac8563f14d092276b57ca9eac1849d518ca73e750f7b799942ca9cdcb",
+      "bytes": 50692115,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s0/permutations.npy": {
+      "sha256": "5923eb4f7ec96315add1de68979915c134ba37a7bc21fef867468b1bafe62a8b",
+      "bytes": 283488,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/w0.json": {
+      "sha256": "dbbf30525546450c6dc12ecc444f4e0c6b3b97906902886f3b580d9efb33fc12",
+      "bytes": 172377,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/w0.npz": {
+      "sha256": "2494dfc241a064ac7e1ec1ecb473e3031747702e4a06ea56c354be5bf80ab0db",
+      "bytes": 170202,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s0/w0.pt": {
+      "sha256": "733114c434a12c835b035cc3a5ee62a30d9cca69a66cabe2afdf080c6a0210b1",
+      "bytes": 50676291,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a100.json": {
+      "sha256": "94d5114e85be9ecfd570d8985ccb62884997bc9c545790784e44c197b5e6d112",
+      "bytes": 168256,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a100.npz": {
+      "sha256": "a8e5c87102a58b17c1910362a4c8b0cc57da05f7fc923e793fb5c27c66ce9872",
+      "bytes": 168785,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a100.pt": {
+      "sha256": "05fbc07f1b4c141c21785f3608f4b455798a8a52abb4385952e8590025f7216d",
+      "bytes": 50693323,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a20.json": {
+      "sha256": "61344e94acbb4d505fcfa91a56b9f4eb34298afa32f0afc04e8a8c17d8ad7ba2",
+      "bytes": 168022,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a20.npz": {
+      "sha256": "a8e5c87102a58b17c1910362a4c8b0cc57da05f7fc923e793fb5c27c66ce9872",
+      "bytes": 168785,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/cap5_a20.pt": {
+      "sha256": "03663e7f49b57953a23190c0d6f6bc2681cee0b32ca08509881beaeb737361fd",
+      "bytes": 50693011,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a100.json": {
+      "sha256": "aad4ea1706fd3ea74b17231ed6578d5dc6fefdd4ec5602ebb89aaeb690a1bd8d",
+      "bytes": 159269,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a100.npz": {
+      "sha256": "36d127db4018397564c1bf03a976d106c6c2ef78cfa9ab206ed39c53e8447f0c",
+      "bytes": 143891,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a100.pt": {
+      "sha256": "d73e3f9da274c1569c4bd622f150252890c00ca950f812fbe48fad5d207bdae9",
+      "bytes": 50692555,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a20.json": {
+      "sha256": "6ec8aa1f630978a8d0a88eebbcc5f6d46b1d407b4ca0c8d6fa750a17adf348e0",
+      "bytes": 158430,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a20.npz": {
+      "sha256": "111cb6fee476723f7d6d0948fa9a0d7a23d8d1e538c808d733ad8d995cea852c",
+      "bytes": 11337,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/none_a20.pt": {
+      "sha256": "6a9034b89a95d5dac335190d7128264172370d44b209598eb7b4fd5b84f4ca32",
+      "bytes": 50692243,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s1/permutations.npy": {
+      "sha256": "b9330b494917a317cda5142a37739d68839789a4169fe0a6531cb383780cb885",
+      "bytes": 283488,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/w0.json": {
+      "sha256": "47a44b788b0124a908cfa960baad6fa69ea2b7c6567b95897cd8e4c1dd7dbfc0",
+      "bytes": 172397,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/w0.npz": {
+      "sha256": "a8e5c87102a58b17c1910362a4c8b0cc57da05f7fc923e793fb5c27c66ce9872",
+      "bytes": 168785,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s1/w0.pt": {
+      "sha256": "de990081c91a86d8521b2d9cac2fe5c20b3b0107941af23b0fc693ada6dbda33",
+      "bytes": 50676291,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a100.json": {
+      "sha256": "ddd86576e0ad1ac17c92ac50a487b0f09174c89953d68a684d313063a9f82286",
+      "bytes": 168351,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a100.npz": {
+      "sha256": "e48ce68930ab23cd22da42958e24b137182ea3042e5610f6afbd3af7f2ef6693",
+      "bytes": 168719,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a100.pt": {
+      "sha256": "fb512deabbb85d266fdf4c5b4b83fea8437b082b9671b6f6b89786063a54195b",
+      "bytes": 50693131,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a20.json": {
+      "sha256": "ca43897290aac0568884c7a0729a9017750428ccd616f89b7cdc70cb879dadd1",
+      "bytes": 168117,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a20.npz": {
+      "sha256": "e48ce68930ab23cd22da42958e24b137182ea3042e5610f6afbd3af7f2ef6693",
+      "bytes": 168719,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/cap5_a20.pt": {
+      "sha256": "a42addf29c8b1b377d3117be2dabee584e272e0562e0ca6d59d6c4172f3b4125",
+      "bytes": 50692819,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a100.json": {
+      "sha256": "9c6bfca7adba87b6a36618b5d845ad097ff5521134837fd83eea5a2e79791e7f",
+      "bytes": 159141,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a100.npz": {
+      "sha256": "bddb93ee25d8121a6319c16e55e027eb35169786359ff3a2e9aafd10eb82eb25",
+      "bytes": 127490,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a100.pt": {
+      "sha256": "1cef57923640b96978e502acc501bbe9564dac69b71e34f8eaada13a1ef451e5",
+      "bytes": 50692491,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a20.json": {
+      "sha256": "c5a28d55c37e5fc30390e2230bcd08bff70e1ac0fba58d5e33dc0c68912953d5",
+      "bytes": 158547,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a20.npz": {
+      "sha256": "4ff17bb988fa8d0fb44eb02a3f10c0d6087311516f9dec467766b6b29ee5223a",
+      "bytes": 11791,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/none_a20.pt": {
+      "sha256": "bcb5bd4a34ff6c5dc92c560c8868cced882d6fd48fdbfdb34be624e85d4286ad",
+      "bytes": 50691731,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/endo_s2/permutations.npy": {
+      "sha256": "f63f98706c7254af364ff9e1b7c9e221225700db121c7ca1075700de1d3478f0",
+      "bytes": 283488,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/w0.json": {
+      "sha256": "950c05c0a844c6cb7ee73e25666517ffedc7f24ad6a11e4016f95b6a36d00041",
+      "bytes": 172496,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/w0.npz": {
+      "sha256": "e48ce68930ab23cd22da42958e24b137182ea3042e5610f6afbd3af7f2ef6693",
+      "bytes": 168719,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/endo_s2/w0.pt": {
+      "sha256": "5f98acd1d5dd5e1e565077523a69f5e48efb7c9c08373a2752532c82ec5356c3",
+      "bytes": 50676099,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/protocol.json": {
+      "sha256": "181f02bd09192115f95c5499d381c3445932dbaed3edaac1e688a9ad333dd71c",
+      "bytes": 998,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/results.json": {
+      "sha256": "42957e8c23acdc7f110db2edf2ae8a106d9126b493d58a92d7bc4634032e56a0",
+      "bytes": 5939628,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a100.json": {
+      "sha256": "0abb01c98d2c464d8838a0c35635aeb6fa0bcbcf8d24b153bfef37b2b96917f4",
+      "bytes": 180963,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a100.npz": {
+      "sha256": "f37819380b977e9fd737c8eced84bf13fcf82587ea38d8a1d775bc83d5959850",
+      "bytes": 199722,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a100.pt": {
+      "sha256": "cd55189fa27a6fdb92b8b6a4aa940dc6852f966de929f51a79cb86b54ac8caeb",
+      "bytes": 50693259,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a20.json": {
+      "sha256": "92dfaa012069b5f29ee466ddd2d8c7ebff8a9325908969a8a37af3751a0d5efd",
+      "bytes": 180675,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a20.npz": {
+      "sha256": "f37819380b977e9fd737c8eced84bf13fcf82587ea38d8a1d775bc83d5959850",
+      "bytes": 199722,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/cap5_a20.pt": {
+      "sha256": "a4d376970e54c73312246e6cd5fb0fe27b0156e7579e51f400a4837e5c5d105a",
+      "bytes": 50692947,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a100.json": {
+      "sha256": "542eb8e59bcbce7df469cc20c50029092cfc106d8f6aea6897b90f4f56d73c38",
+      "bytes": 171486,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a100.npz": {
+      "sha256": "4f51e5d8e7fdbbb672b1c912eb94e4459693fa73c0613ac8832bdaa28c847401",
+      "bytes": 147860,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a100.pt": {
+      "sha256": "5ecc826ef01e3568b6e84b968b054383156982cb9c580776a44e2e086726618d",
+      "bytes": 50692619,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a20.json": {
+      "sha256": "2d37f80415cdd1b8d8ae7f0de80fdfb5241d9b28f7cf25d787bfecb68df73417",
+      "bytes": 170431,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a20.npz": {
+      "sha256": "1eab9d4a09e7abf094598acaf1bfaaf1dee8df06c5fdfd53417993b5abf02ff2",
+      "bytes": 181004,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/none_a20.pt": {
+      "sha256": "2de18d5afaf6022a943f79432899a8d6f53052a78c7be12f43895a1fdb29f554",
+      "bytes": 50692051,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s0/permutations.npy": {
+      "sha256": "d5796e9c9c8af694ce69594c208ea3c4ceaf5dfcab736e0405b2c8de50a5ea54",
+      "bytes": 336128,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/w0.json": {
+      "sha256": "bda5453abdec8709285896cd92cf15eaad33966615a701708706fc63bc657d55",
+      "bytes": 186077,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/w0.npz": {
+      "sha256": "f37819380b977e9fd737c8eced84bf13fcf82587ea38d8a1d775bc83d5959850",
+      "bytes": 199722,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s0/w0.pt": {
+      "sha256": "8e7e34b7d229133f4a22de2d640258bb4bc0d3abf21da291ca163e4b6b968161",
+      "bytes": 50676163,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a100.json": {
+      "sha256": "e2fd1ae1cc4dc6960ee29bfa369bcce363eed8b3d582707f0d562495db3fcbfd",
+      "bytes": 180310,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a100.npz": {
+      "sha256": "ed69c06f4cafc4bb3b915f755622069c7b3809bd9750354fe73d16b52ec7a4bc",
+      "bytes": 198952,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a100.pt": {
+      "sha256": "a0a3975e888f58842e818e7865602f16ce9fd4f2d75dbfb6f16600baef72e079",
+      "bytes": 50693259,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a20.json": {
+      "sha256": "14978e1c4118ac0cd0fb29f4f7711c3b78d34acc5af5a6a733663ad9f0383ad2",
+      "bytes": 180022,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a20.npz": {
+      "sha256": "ed69c06f4cafc4bb3b915f755622069c7b3809bd9750354fe73d16b52ec7a4bc",
+      "bytes": 198952,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/cap5_a20.pt": {
+      "sha256": "4c4fb14a9975a2cd9245facf5a9dea5e725336f75740ba12c84880d3ce0d36ba",
+      "bytes": 50692947,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a100.json": {
+      "sha256": "60ea142aa6058a3a09eb4be6eca16aeab855d2527e7cd7139e778c71e42603a3",
+      "bytes": 171414,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a100.npz": {
+      "sha256": "a69088185f68242559b9440d6ce176dae06228253aa2449be7a0d34f386529d1",
+      "bytes": 148520,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a100.pt": {
+      "sha256": "54c9d3673a417f633a5ec545fca7302749d4fe4f61a6c77b6e9105cc33548110",
+      "bytes": 50692235,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a20.json": {
+      "sha256": "a2ff7ed3cafa539ab0ceddab134298136ba50ac4b45919299ca5115f63a2a6f0",
+      "bytes": 171058,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a20.npz": {
+      "sha256": "76f39fd08ef6f84c47d649f5cafa52d38ffb7ad65921684c544210a3ad3d54c3",
+      "bytes": 61019,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/none_a20.pt": {
+      "sha256": "5d99ec41e40d29d44b3c09011d41e3c17721f105f964289c493c91419e27376e",
+      "bytes": 50692051,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s1/permutations.npy": {
+      "sha256": "5ee7d727425e12c6efba860fef0930eab46d88e43575294fb5614651fe7d24cd",
+      "bytes": 336128,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/w0.json": {
+      "sha256": "6ee2c1d8a583f4b9d846689a729d8be17284e50c697767fdcfba7867076904aa",
+      "bytes": 185402,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/w0.npz": {
+      "sha256": "ed69c06f4cafc4bb3b915f755622069c7b3809bd9750354fe73d16b52ec7a4bc",
+      "bytes": 198952,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s1/w0.pt": {
+      "sha256": "ef5437eaa6ea3d34725c49fd0acab21b502932fcea0fb35cfc989e44bea52bbe",
+      "bytes": 50676227,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a100.json": {
+      "sha256": "eebd26e06721534c1dc1ce77a6fbeb43636dedd995cc53c73222804cd675738a",
+      "bytes": 180900,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a100.npz": {
+      "sha256": "697651e5c75d9084eba3850057111d60feba23aad63ad69c34336f2a34b00320",
+      "bytes": 200224,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a100.pt": {
+      "sha256": "0d24914be9a433c2b4ca80fce7c4ee0a3824fa47daf4534be02f04be0775f3e3",
+      "bytes": 50693259,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a20.json": {
+      "sha256": "0567a2d6f756569992ea4833a37b48d8643332a2bb0e26f1c520595689801441",
+      "bytes": 180612,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a20.npz": {
+      "sha256": "697651e5c75d9084eba3850057111d60feba23aad63ad69c34336f2a34b00320",
+      "bytes": 200224,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/cap5_a20.pt": {
+      "sha256": "2c7da706a7703ca57726ad7a64f3efd2db83cb7819ef738a0e3694f291970e37",
+      "bytes": 50692947,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a100.json": {
+      "sha256": "0758352e9ff747a76e2c441ffc2020a780a808556025d4d9def6b63aab76d031",
+      "bytes": 170839,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a100.npz": {
+      "sha256": "64e1e3746fcf0737059bdac5d535b45bcdb85212fe9005e3bb0722495e9497f6",
+      "bytes": 167658,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a100.pt": {
+      "sha256": "ff477726a60679943604310a6cf4b5dcff99e1b9bdefbddee065e1a27a979d93",
+      "bytes": 50692427,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a20.json": {
+      "sha256": "0d267505d02d25f2e19eaee666ee74ddda8d161476237fa39e72cd2fc072d4d9",
+      "bytes": 171021,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a20.npz": {
+      "sha256": "39b362482a8a52329cb769abb42ccffc937518693d1084d1579f44b6f70bda65",
+      "bytes": 52047,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/none_a20.pt": {
+      "sha256": "de85045c1d44e21e625730851c1eb1b25b46d158bc973d80fc44707aca78b1cb",
+      "bytes": 50691987,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/run-archive/setty_s2/permutations.npy": {
+      "sha256": "f46ff996d0101f8ef633f7e00017e1326858340c53f6ae69be82097b8571c3a3",
+      "bytes": 336128,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/w0.json": {
+      "sha256": "06bf353e471fbd8e373431e0faaf7cfa07c97c88a468f616842e470c746ca372",
+      "bytes": 185994,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/w0.npz": {
+      "sha256": "697651e5c75d9084eba3850057111d60feba23aad63ad69c34336f2a34b00320",
+      "bytes": 200224,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/run-archive/setty_s2/w0.pt": {
+      "sha256": "5257204be302966551ba810c5434419fe3efc38fb5d98d239a6e483d9ac38357",
+      "bytes": 50676227,
+      "distribution": "zenodo-checkpoint-archive"
+    },
+    "evidence/source/dpmm_transformer.py": {
+      "sha256": "39b3b73326d1eb33584d7726968128bd491d128430db7dc9afce87d8ff04893f",
+      "bytes": 20659,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w0_s0.csv": {
+      "sha256": "485ccad104d4775c76cddec6c0533de845549340e5ec2721b9034ed87fae200b",
+      "bytes": 20025,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w0_s1.csv": {
+      "sha256": "ab3fd555a5579860b54ec6bbab2189cfd258ed82379eeb7127fc4b2484235b0d",
+      "bytes": 20332,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w0_s2.csv": {
+      "sha256": "d86831dc25dcdcc44eaf51a33030e58c12b9338b7e5371ac864e3efc481a19b7",
+      "bytes": 20405,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w1_s0.csv": {
+      "sha256": "ea39e3e46b33652a8aea9cf64966cf38b07cbde395f0a21499602dc6210fe728",
+      "bytes": 20289,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w1_s1.csv": {
+      "sha256": "428eda8c5903fe2db17e0f8655bcf560aafbd5bf58007e5c5060b3c1d3bce47c",
+      "bytes": 20120,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "evidence/umap/dpmm-transformer_unclamped_w1_s2.csv": {
+      "sha256": "e20c6eb8033e303229a57c36f3e46bc25914bc7b97960309f13cd1845df0d273",
+      "bytes": 20203,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "extra.bib": {
+      "sha256": "ce5eb6b0c4e6c4781cee5dae71a2f65c924bc9099c2c0ab0da8019f8ea266b98",
+      "bytes": 15684,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "factorial_results.tex": {
+      "sha256": "b272db4cfe6b4864e2347cd2c1aefe45718356125443ef5963af0c4032af902c",
+      "bytes": 5157,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figure-build.json": {
+      "sha256": "4c7c1951042d9634f4e8f2fd2631461cc534dd17180f2d586ff86b90548c306d",
+      "bytes": 829,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/architecture.pdf": {
+      "sha256": "da06c2f28753c981414b3ed5236fdb84bf4c662865fe4f2fe748a3789bf2930a",
+      "bytes": 38058,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/architecture.svg": {
+      "sha256": "2aa2f14671e1b89098ab73cc4793c2dbb97db086eec1d7f9eee652d832e908bf",
+      "bytes": 15616,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/clamp_vs_unclamped.pdf": {
+      "sha256": "5426db66a14631610288383811f94bd4562cab7c58d54d14019f98d15bc5a9f5",
+      "bytes": 26549,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/clamp_vs_unclamped.png": {
+      "sha256": "9d39f76572e51b47266463e918029eb47f9fef48167f2ed15379e2f2e2962c45",
+      "bytes": 92656,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/factorial_edge.pdf": {
+      "sha256": "5ad20fc980dba98646f267a760eaf307007f49ae09c85d105a41e55c6d9623f1",
+      "bytes": 23585,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/factorial_edge.png": {
+      "sha256": "c05ca6fe101ed6b708fb6ffeac3908d0163af19dc0b89a3840c99d7880e5cfca",
+      "bytes": 41682,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/fourbg_unclamped_edge.pdf": {
+      "sha256": "c2becf2539ae991fd8d42495335383b7620946489630450a8990a87fe43474a6",
+      "bytes": 24413,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/fourbg_unclamped_edge.png": {
+      "sha256": "45e790181aac40079522e5f7d07160822c7a03caa8b8bc8b21f38d71053a381d",
+      "bytes": 84775,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/plane_stats_unclamped.pdf": {
+      "sha256": "ade375fd0d96142295babea59e077e73cb05d840a4a6037b31b21086b7435989",
+      "bytes": 23909,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/plane_stats_unclamped.png": {
+      "sha256": "eacc760c69ac19b3fa12198c5cacc1e78c3d92efa380d9b5246923f0c3efe586",
+      "bytes": 63579,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/plot_manifest.json": {
+      "sha256": "d300ca97b15a127ef0f06e32603dd859c875ab0814ca705b7fe861fc3105e595",
+      "bytes": 1369,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/purity_callout.pdf": {
+      "sha256": "fdb11fb0fbfabc3b34f0c7a106fe230b11c4bfad7590c01ccf61d67a26936b4d",
+      "bytes": 15816,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/purity_callout.png": {
+      "sha256": "5436c770fc9ff427594e5374a0c7b111b274bba18c9fef20213e30ce11206376",
+      "bytes": 31974,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/setty_umap.pdf": {
+      "sha256": "4b49fa16152f48c6aa922fcba2ebbf7277199eee2c62b710e242189288958ae0",
+      "bytes": 131054,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/setty_umap.png": {
+      "sha256": "6d38a42d410fc6a7b5b9d12027f647973b30763e2a7392694ffee8037927eec8",
+      "bytes": 88995,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/window_extension.pdf": {
+      "sha256": "8095ed55383a1757f913043f96cbb018c4537cdcaede98077ecb71e86d8cbe59",
+      "bytes": 31011,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "figures/window_extension.png": {
+      "sha256": "4846e59c0427dc60717c4e8c25ef5132bdf85d50cdb92174adeaf916151f5dba",
+      "bytes": 53145,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "paper.pdf": {
+      "sha256": "cb05d3f7e76694400691cd9467d8e5f6360e4361950a1d5bffec5bb6670473e8",
+      "bytes": 379849,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "paper.tex": {
+      "sha256": "880ba38e3cb240d859dfbecb25b335d0b656d769106518141138296167a0040a",
+      "bytes": 39345,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "publication-manifest.json": {
+      "sha256": "8277a374c13cdbd33008ab95f9c61c9bc6a4fbd2917ee1257444fe0ef3196076",
+      "bytes": 18036,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "release-info.json": {
+      "sha256": "7d0799f7d3e0a9563c6d21f9138a2bfec15c8cdb12641ed9fda38eacf398f009",
+      "bytes": 940,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "requirements-analysis.txt": {
+      "sha256": "0490314121f48f9abe02e93fd16a5e6a4ed71e7f22738a0152a2022eaeea9e62",
+      "bytes": 27,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/build_figures.R": {
+      "sha256": "7496f86cbb2605994f83052aa9c0702e48e6ca1d5792933a7512703f60cd272c",
+      "bytes": 6624,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/exposure_diagnostic.py": {
+      "sha256": "b6aaf8f13d7d95ea1ec950df56847190fbbe7430edbc0fb70c1a1e60ee39f77e",
+      "bytes": 6215,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/figure_style.R": {
+      "sha256": "b65489c98e99a5967b328257c00c31399b93453857232677c3896c0863fa685f",
+      "bytes": 2517,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/plot_helpers.R": {
+      "sha256": "f5b1ff988bd0bd1af41aee60ea599e410126169e7bdc43db8884b7814e1f9621",
+      "bytes": 7850,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/render_schematic.py": {
+      "sha256": "67996e80b51dd44c4440b1138d009e4aea8311ee81ee11723df3d2ce3aa42af9",
+      "bytes": 3548,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/robustness_audit.py": {
+      "sha256": "9ea50fc1897d38581182be45bbd3e67d66b6cf9d7a8e26db0435ec65ce95ad80",
+      "bytes": 5407,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "scripts/verify_publication.py": {
+      "sha256": "9cc6010da2e8d1fb0da8e6c961d8a420560dd60229ecdb8b6485578f430c6bf4",
+      "bytes": 1992,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "standalone-assets/preamble.tex": {
+      "sha256": "a0c2bd5fe8ec8bb900eba0f52a042b57abad2e5d080a3697d08ba87a9b1a5c96",
+      "bytes": 1259,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "standalone-assets/refs.bib": {
+      "sha256": "daa24aefb15cbe2272ca8edc38a313c66f8facdceb96047cd8c2007e2770e9f6",
+      "bytes": 11050,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "validation/robustness-audit.json": {
+      "sha256": "38e740abd85aaa4ad9e54c5397bca477b76cc5b4ba1107d8a3c1a8a7290ea33d",
+      "bytes": 12985,
+      "distribution": "github-and-zenodo-source-archive"
+    }
+  },
+  "source_files": 128,
+  "checkpoint_files": 30,
+  "historical_hash_policy": "Producer digests inside scientific records identify historical computations. This manifest hashes the actual distributed bytes."
+}

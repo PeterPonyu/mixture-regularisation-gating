@@ -1,0 +1,644 @@
+{
+  "input_sha256": {
+    "evidence/factorial_results.json": "b969c1beaf2860155b506ea2d5934da2cf863694371cf8dd82d2c57b79714aab",
+    "evidence/run-archive/results.json": "42957e8c23acdc7f110db2edf2ae8a106d9126b493d58a92d7bc4634032e56a0"
+  },
+  "scope": "Epochs 200--219 only; no new training and no imputation of earlier gradients",
+  "rows": [
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "dose": 19.575314440727233,
+      "dose_per_update": 0.061172857627272606,
+      "change": -0.007299364891555582,
+      "edge220": 0.6249578994156001
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "dose": 148.52446365356445,
+      "dose_per_update": 0.46413894891738894,
+      "change": 0.01580791984944474,
+      "edge220": 0.4010173728788419
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "dose": 26.70246449947357,
+      "dose_per_update": 0.08344520156085491,
+      "change": -0.0029410936135446653,
+      "edge220": 0.6287752016602343
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "dose": 127.22998142242432,
+      "dose_per_update": 0.397593691945076,
+      "change": 0.007960855288798474,
+      "edge220": 0.39280793102031514
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "dose": 17.14179394721985,
+      "dose_per_update": 0.05356810608506203,
+      "change": -0.007384661614596499,
+      "edge220": 0.62876487214882
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "dose": 100.19999361038208,
+      "dose_per_update": 0.313124980032444,
+      "change": -0.00916712125053687,
+      "edge220": 0.5164686914785515
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "dose": 46.5993776512146,
+      "dose_per_update": 0.17922837558159463,
+      "change": 0.03188629458156156,
+      "edge220": 0.643660415903363
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "dose": 161.08505582809448,
+      "dose_per_update": 0.6195579070311327,
+      "change": 0.023398449644343178,
+      "edge220": 0.4312608755529337
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "dose": 34.91325578212738,
+      "dose_per_update": 0.13428175300818224,
+      "change": -0.01780523820626423,
+      "edge220": 0.6701523276599052
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "dose": 124.95861911773682,
+      "dose_per_update": 0.480610073529757,
+      "change": -0.0011713242069969487,
+      "edge220": 0.6179767733626442
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "dose": 34.917847137451176,
+      "dose_per_update": 0.1342994120671199,
+      "change": 0.007973886686873377,
+      "edge220": 0.6567265096759151
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "dose": 108.79435396194458,
+      "dose_per_update": 0.4184398229305561,
+      "change": -0.03583934976450698,
+      "edge220": 0.5576613737548688
+    }
+  ],
+  "uncapped": {
+    "n": 12,
+    "pearson": 0.22996485158317387,
+    "spearman": 0.44755244755244755
+  },
+  "per_background": {
+    "setty": {
+      "n": 6,
+      "pearson": 0.77334848457709,
+      "spearman": 0.6571428571428573
+    },
+    "endo": {
+      "n": 6,
+      "pearson": 0.021546788876926515,
+      "spearman": 0.2
+    }
+  },
+  "per_schedule": {
+    "none_a100": {
+      "n": 6,
+      "pearson": 0.6902360103234464,
+      "spearman": 0.6571428571428573
+    },
+    "none_a20": {
+      "n": 6,
+      "pearson": 0.8360303810594241,
+      "spearman": 0.942857142857143
+    }
+  },
+  "normalized_per_update": {
+    "n": 12,
+    "pearson": 0.2126303644205391,
+    "spearman": 0.3706293706293707
+  },
+  "within_warmup_contrasts": {
+    "n": 6,
+    "pearson": 0.6275363810584118,
+    "spearman": 0.6
+  },
+  "delete_one_seed_index": {
+    "0": {
+      "n": 4,
+      "pearson": 0.8438150017366712,
+      "spearman": 0.7999999999999999
+    },
+    "1": {
+      "n": 4,
+      "pearson": 0.8021161295076071,
+      "spearman": 0.7999999999999999
+    },
+    "2": {
+      "n": 4,
+      "pearson": 0.040127583925019084,
+      "spearman": 0.19999999999999998
+    }
+  },
+  "delete_one_warmup": {
+    "setty_s0": {
+      "n": 5,
+      "pearson": 0.46254626415204864,
+      "spearman": 0.3
+    },
+    "setty_s1": {
+      "n": 5,
+      "pearson": 0.6343405628212224,
+      "spearman": 0.7
+    },
+    "setty_s2": {
+      "n": 5,
+      "pearson": 0.6655625826961198,
+      "spearman": 0.6
+    },
+    "endo_s0": {
+      "n": 5,
+      "pearson": 0.7551415745024888,
+      "spearman": 0.8999999999999998
+    },
+    "endo_s1": {
+      "n": 5,
+      "pearson": 0.7602394042452427,
+      "spearman": 0.7
+    },
+    "endo_s2": {
+      "n": 5,
+      "pearson": 0.28823240765469554,
+      "spearman": 0.3
+    }
+  },
+  "contrast_background": {
+    "setty": {
+      "n": 3,
+      "pearson": 0.9890620469330191,
+      "spearman": 1.0
+    },
+    "endo": {
+      "n": 3,
+      "pearson": 0.48266098404396357,
+      "spearman": 0.5
+    }
+  },
+  "capped_latents_identical": 12,
+  "original_refits": [
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a100",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "cap5_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a100",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "none_a20",
+      "epoch": 190,
+      "converged": true
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "epoch": 180,
+      "converged": false
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "arm": "w0",
+      "epoch": 190,
+      "converged": true
+    }
+  ],
+  "permutation_archives_verified": 6,
+  "original_refits_not_converged": 46,
+  "continuation_convergence": "not archived; finite lower bound alone does not establish convergence",
+  "limitation": "Six warmups, two fixed backgrounds; no inferential p values or donor-level intervals."
+}

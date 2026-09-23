@@ -1,0 +1,13 @@
+{
+  "title": "Cap and annealing controls for a late mixture regulariser in an attention autoencoder",
+  "version": "1.0.0",
+  "repository": "https://github.com/PeterPonyu/mixture-regularisation-gating",
+  "archive_doi": "10.5281/zenodo.22914503",
+  "archive_record": "https://zenodo.org/records/22914503",
+  "scope": "The archive contains the manuscript, vector figures, thirty continuation endpoints, six schedules, saved per-batch exposure records, mixture parameters and analysis code. CPU commands reproduce exposure accounting and robustness checks. Model checkpoints are supplied separately within this archive. The retained model source is an inspection snapshot, not a complete training library; raw-data preprocessing and historical graph rescoring are outside the verified scope.",
+  "licenses_by_contribution": {
+    "author_software": "MIT",
+    "author_research_content": "CC-BY-4.0",
+    "third_party": "original terms"
+  }
+}
