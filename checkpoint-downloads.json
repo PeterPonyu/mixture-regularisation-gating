@@ -1,0 +1,487 @@
+{
+  "study": "mixture-regularisation-gating",
+  "version": "1.0.1",
+  "archive": {
+    "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip",
+    "bytes": 1410584808,
+    "sha256": "e984ec054a5164267cc46775884feaa95d4518d803bd56e51c4fb8df9a01b385"
+  },
+  "parts": [
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part001",
+      "bytes": 20971520,
+      "sha256": "dfd7fc29e5988085a7256fb3756872670021fe34df1199965fd6549f3021820f",
+      "md5": "md5:0e81b7cc88b03210b436b161dbebf91b",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part001?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part002",
+      "bytes": 20971520,
+      "sha256": "514d789b6ea15ab02ea518ad9b000ed85f8e24304f016ba68cf9e40573c7e481",
+      "md5": "md5:7dd21201cbbaf31793a1383ede638f62",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part002?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part003",
+      "bytes": 20971520,
+      "sha256": "7d2fc7abfe2b2da361d3baa81886c7070efc6c0b525c746e4962e7ecbb336d8c",
+      "md5": "md5:6325239f1627d6e053e15e7a344aecec",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part003?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part004",
+      "bytes": 20971520,
+      "sha256": "425f19c034f758ba1d59bb6bca8af3084d0450c3602bc65c608c1a03e8f9f6b5",
+      "md5": "md5:c6ad3de18f557734e590dd6608c7417e",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part004?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part005",
+      "bytes": 20971520,
+      "sha256": "8c633ac3333f8a645a9488700f0d46e37c19993880fb729e40acde56955f4966",
+      "md5": "md5:83e1bcb9c2e4d6c3c4878aa6852aaed4",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part005?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part006",
+      "bytes": 20971520,
+      "sha256": "91de1abd48bf43d2dcf238f7cbc717f5fb2335ed5104da2806c463cdc009160e",
+      "md5": "md5:7419772a4798740d43310149279e54b4",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part006?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part007",
+      "bytes": 20971520,
+      "sha256": "f5409e76230c349a42d9c1512b71ab79396d1c1bef6ea20a3f1e8c5a2531af66",
+      "md5": "md5:f5d16d3f25fff1bf4cd71f6b2208dc49",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part007?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part008",
+      "bytes": 20971520,
+      "sha256": "ea7c363c6f7a9d7f84f079c42621bd77e2553feecfd751ca47631c40ffd17835",
+      "md5": "md5:76709201af4ba2529d81a88494670128",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part008?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part009",
+      "bytes": 20971520,
+      "sha256": "c366396e0cfdf4c871fd2f837d734ef777e70833540852ab104a2a03f48e1c57",
+      "md5": "md5:9d4068fbfae9ab28cf3caa5610aa62b8",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part009?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part010",
+      "bytes": 20971520,
+      "sha256": "748ffeee87b135511099656c574bee2fe595e122cfc93f6ba9f4ff48c79bb036",
+      "md5": "md5:858f42a8f6ee7019c6fdda9f273d5d4a",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part010?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part011",
+      "bytes": 20971520,
+      "sha256": "22f21fde5a9cb184661e05fafdf8d8267028f7bcf75c2ab0de5336642478254f",
+      "md5": "md5:00dedd37172681b4d27a5415a8e1913c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part011?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part012",
+      "bytes": 20971520,
+      "sha256": "64e67b1161e503a497b1e67e05bfc5d088b79d19414d2462dfdd696440382d61",
+      "md5": "md5:9eef5d99b63aafca041a15a067f3704c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part012?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part013",
+      "bytes": 20971520,
+      "sha256": "1691dd3a667b8832bef913d9e37a915818d5916aa4ac6cba246371113de51aa6",
+      "md5": "md5:48708f2e1147af6b44857d3cfa6b3412",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part013?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part014",
+      "bytes": 20971520,
+      "sha256": "e38b1b8360b52a7ab379e447e6667c198efebc60b10f81cc2c7c486b97231117",
+      "md5": "md5:2cc4a60ddec8da5673a592922d8af372",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part014?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part015",
+      "bytes": 20971520,
+      "sha256": "ad9367c5ad76c467802760818acf1a12b619abe6ec9ac33db6c41c556baf6eea",
+      "md5": "md5:a0de3818094f1b2aa31b7adb62230104",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part015?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part016",
+      "bytes": 20971520,
+      "sha256": "e8ebe94ecff83a27c0b14be2f3e27ea42254126e77e00010a477bd82cbb8ea2c",
+      "md5": "md5:8fbf53a5b6f5f3715724750990e51143",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part016?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part017",
+      "bytes": 20971520,
+      "sha256": "c7053f78816a3f202a8928399e6ae9c4b9e1f8a1d92da642fd37f41d0bf34cfd",
+      "md5": "md5:00f1452ba581e4abc720e96e4f45290e",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part017?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part018",
+      "bytes": 20971520,
+      "sha256": "e17c315fdba1c04422704a99a1ad95b4ac024733c52cc18434061172a85449e2",
+      "md5": "md5:a1d4a98f6ee355512b03376bf1018b58",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part018?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part019",
+      "bytes": 20971520,
+      "sha256": "670ba961e579791f577d49db4b02c21081679eca442076755992ad3f139e22af",
+      "md5": "md5:e5ceee764eb36994e2b6c6006bd65e6d",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part019?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part020",
+      "bytes": 20971520,
+      "sha256": "04f6faf0e1981a6fe9600b8660fac8091f1f41ab3a252dcd1ffc79a01a49d9c9",
+      "md5": "md5:94a7c3f5dbd068333a60cc812f762b08",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part020?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part021",
+      "bytes": 20971520,
+      "sha256": "be8985635d30c74c9d8ec52ec4363923ec5339461e3fa64e2e40f53a17e3f10e",
+      "md5": "md5:5f474d1ce9bf751454b4be0e1e970148",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part021?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part022",
+      "bytes": 20971520,
+      "sha256": "0de7083eef5945c0791013f2650df56846a62a84c8e281a6cad0fbfe97cdc9dc",
+      "md5": "md5:d94c8db77b1720a702b0c6c752ec02f9",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part022?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part023",
+      "bytes": 20971520,
+      "sha256": "7bb09d7f9a87e0e72cd1a517aabf9d081a0de1627accd140468c1efcf429dc6e",
+      "md5": "md5:465464f100a5c4749d7341342082b63d",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part023?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part024",
+      "bytes": 20971520,
+      "sha256": "7f9ef23da72ec3cd4d088ad66584d13c119533b6612760023299455506f1400f",
+      "md5": "md5:537d86ecea2d5310635dd6a32888b2db",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part024?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part025",
+      "bytes": 20971520,
+      "sha256": "c64c85b0bd26d95f5fbe04ce606275543c2be55ceebcc8557cf79bd254a514b6",
+      "md5": "md5:00ca4d8fd6985fcb75a4ca079a22f88e",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part025?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part026",
+      "bytes": 20971520,
+      "sha256": "b1a734818801513e2cbe6cc9f03604792ac199c6bdd8ecf5ce582755211f7f3c",
+      "md5": "md5:7dc01948bdc972928d03e0f28d4f0c6d",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part026?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part027",
+      "bytes": 20971520,
+      "sha256": "55aa27f67051c3f083c469aa1443a03590836eff6011402ac41320aafd606e1e",
+      "md5": "md5:ce1aab6e25aae2b1bb28b1a9ccec2811",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part027?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part028",
+      "bytes": 20971520,
+      "sha256": "3c12f1000c53d1977b299a985e2534bc48ee39371da9253dbab9ddc20eb0319b",
+      "md5": "md5:5b10953ca3509d936c9f0aee16878d84",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part028?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part029",
+      "bytes": 20971520,
+      "sha256": "d29ea001266ea2d9623e286ae6fbda0ccc724e5ef9039f631d9d55fd28d0c740",
+      "md5": "md5:fcd985a4eb6c518e092446ccf4ad51a3",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part029?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part030",
+      "bytes": 20971520,
+      "sha256": "de6fa0f7bb6ad1cd6fef98d3cf0f99ffdfa2ff1bbe2997f83aff8cac15ecaaf3",
+      "md5": "md5:044b26fd3e76ed323fe0f3b5093c8cf5",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part030?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part031",
+      "bytes": 20971520,
+      "sha256": "0f183c590fad424d569798c97d565cfd81b37c47f063645e4dc091e47d727d89",
+      "md5": "md5:a4f1228adcd0ff1e33e211de437b4a51",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part031?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part032",
+      "bytes": 20971520,
+      "sha256": "6718408530f616f7d2d037b36c87608f4f274fd2e527fdd2ea312aba4e9de5ca",
+      "md5": "md5:11bc969279847d073327b07c997f4561",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part032?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part033",
+      "bytes": 20971520,
+      "sha256": "6f04e82f6ff1f1b9439092b4cd1d958e8fbdcf892ea9b51fbe4563b9cd34279c",
+      "md5": "md5:049108489c65c6218da664353c0c1fe1",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part033?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part034",
+      "bytes": 20971520,
+      "sha256": "b93c2c452433696bc727e2222f2397d18d618f9b2fa4a76a261ea4cc2bbd1178",
+      "md5": "md5:89428f61f97c826aa2fe9b41bc0e25d5",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part034?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part035",
+      "bytes": 20971520,
+      "sha256": "7e01843b2abfc5da2c81de47cc19caacbe2c2cb83b5115df965a883ff9c87f4e",
+      "md5": "md5:148feaa6bcd28cb5ee1f33a446fb436c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part035?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part036",
+      "bytes": 20971520,
+      "sha256": "fa89fe020f681a7ede96dcfd582caf6efb4514e9f5edfa8f96b7c932d14a129f",
+      "md5": "md5:f972e20d204ed7747e17d6e55934e097",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part036?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part037",
+      "bytes": 20971520,
+      "sha256": "d750a45c6146995803850daed32121f64569bdf677a94ad5835f465b0f746b36",
+      "md5": "md5:4e8fc619d2c562d16b57f00a50d4f7ff",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part037?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part038",
+      "bytes": 20971520,
+      "sha256": "3631bfa1e12fbe2104cb8102a38ce7a60419f19e56a5676845d4ffd4c1827a44",
+      "md5": "md5:97651cec5f85741897965b8393e62468",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part038?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part039",
+      "bytes": 20971520,
+      "sha256": "2621af1fb82619cc762490f8920ef8481cc410e0a86659ac0ebd15846d36a748",
+      "md5": "md5:a5ed116c181196480fac21c32fd8bf08",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part039?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part040",
+      "bytes": 20971520,
+      "sha256": "ac16508fd1d9125cdc7546446728d0092a7f714520fdfba08fccca607e97b286",
+      "md5": "md5:1b43571e4f9f81603e47de31b01bc7c0",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part040?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part041",
+      "bytes": 20971520,
+      "sha256": "2659fb21ce2e090a6923a92b4d229fdc157537da4720741893adc81625104aa7",
+      "md5": "md5:c26388e60b51fa9a2e950b120f3bb23b",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part041?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part042",
+      "bytes": 20971520,
+      "sha256": "f97c5e54cdbae6f615247dab51f116b7c749bb5fd6b06b88e9ee04a73524f217",
+      "md5": "md5:75a4336fe20b0b05a5ef52e804c041a2",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part042?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part043",
+      "bytes": 20971520,
+      "sha256": "81b6066b530670e4e6a7289533d3fcdc543a954d15c3e847c44ce00aa229e6ba",
+      "md5": "md5:6cbdc9228ba31d77654abf9b65189f48",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part043?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part044",
+      "bytes": 20971520,
+      "sha256": "c81404cd4a928a474984194a3196e40cca1f70e336fefc63e18c2ecc54fe3b16",
+      "md5": "md5:aa1abf55d9a80fbc46300752cde8bbc6",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part044?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part045",
+      "bytes": 20971520,
+      "sha256": "f5991f5c14e22ff149bcec1acfb738a31c8085eedd0345fa5a273cf359b1434f",
+      "md5": "md5:f18029cd51f972e27c9932e9e32d16a8",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part045?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part046",
+      "bytes": 20971520,
+      "sha256": "0b1c81e157acb5a22a99d13933ad8f0a2a4fb113a5d26c2250aa6435c6fb14e2",
+      "md5": "md5:24010cf8a92bf2bed5a4c8b2ea4bb1ec",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part046?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part047",
+      "bytes": 20971520,
+      "sha256": "8959161f96f1af63df4104cb3d9bdf2f263347cc2f34d7e9a8780864378c46d4",
+      "md5": "md5:84cea9ac3bed31fcb777a0b8b4fd7301",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part047?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part048",
+      "bytes": 20971520,
+      "sha256": "d3b8565212b9e2639b7f3fd1ff9c6fb396a17ae0487263f5eee0a2d93ca1d477",
+      "md5": "md5:ce4673d9abc90c8302477f8a5b334b75",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part048?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part049",
+      "bytes": 20971520,
+      "sha256": "fa294ca2e73f1e72869915fe102aa80b55f34b4a0d5ca48634cbfdb0326eb59f",
+      "md5": "md5:7771516f802fffcebb0bd8a635bba12c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part049?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part050",
+      "bytes": 20971520,
+      "sha256": "eb2f9a548f40efd42a51d4d8881db0e7bf600c8092cc81cbc5328070a348be8c",
+      "md5": "md5:ea3258dc5d9db04920cbfdfa02ae4987",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part050?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part051",
+      "bytes": 20971520,
+      "sha256": "d0c738522875b3e36fca8dc28ad2235eb97ba64d117f6b38c10e3b793fdb6714",
+      "md5": "md5:57eff9ca65bfb9d426e8914d7ebc6ca4",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part051?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part052",
+      "bytes": 20971520,
+      "sha256": "3c5078b0e559911419f7e2f738795ba932a9278cabd0312a3e08e024da73e562",
+      "md5": "md5:5f2d2009efa9afa77e152c35ab40f7a8",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part052?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part053",
+      "bytes": 20971520,
+      "sha256": "48afd8e9819ea6b55a4c6e5026c9bc7c5c1eb482dea4424fe6512e63a4cd2ce9",
+      "md5": "md5:6993f16c15df2c5ba1c8293a7779ec94",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part053?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part054",
+      "bytes": 20971520,
+      "sha256": "3de92101ff5ade179416bdb6b3a88a29097cf5cc1403a07d2649e4f697f7c5e3",
+      "md5": "md5:94c436f0bffa275509b9292429e2f149",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part054?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part055",
+      "bytes": 20971520,
+      "sha256": "89718f2bd51eda21ae1a6a4ba941c91202eddb04e1aff76287bbfc576bc3ba14",
+      "md5": "md5:532ec1ed96ec0646cdec073a05881b43",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part055?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part056",
+      "bytes": 20971520,
+      "sha256": "693c054e9b013e9e4a9d7bba766a78c93da5ed5270a07d87c1b751746ec87c7a",
+      "md5": "md5:b78b8d8ba80bfdd435c42186b8311600",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part056?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part057",
+      "bytes": 20971520,
+      "sha256": "77d2b4297faa15f46f9491ba9ba5e2bd25ba95ac13d95d70f692da0b84680157",
+      "md5": "md5:88462fcf7a1ac945ce2939ac61bca49c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part057?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part058",
+      "bytes": 20971520,
+      "sha256": "08e4e93da2f95719eddd1e3c62f93e07662b8d6893dc28a4534b0082f765157a",
+      "md5": "md5:fb14dbe19fe9f53688561b9cfeff50a3",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part058?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part059",
+      "bytes": 20971520,
+      "sha256": "26eb9c317115a5c4745968ce9f0d9fce95de37c5d84e8153debce6d96b0e1b6c",
+      "md5": "md5:5de374f29ac0c5e7318e99697c715552",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part059?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part060",
+      "bytes": 20971520,
+      "sha256": "7f12776a3f8551c37e74f4c0f30d5eb86b68544559876bde01633a6ef8373823",
+      "md5": "md5:506d68fd2c09f896f23c0282a10f03fb",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part060?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part061",
+      "bytes": 20971520,
+      "sha256": "ca52a164421081c01cce6a19fea3fa4436a38f4f4ab0a0c5df273c90234d5b3a",
+      "md5": "md5:a66e5714b4f1801040d403c5f54f06ca",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part061?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part062",
+      "bytes": 20971520,
+      "sha256": "c5b7e4699a3a12efd6ba44e36fe968ed831637edf0f2933124886371b2376d5f",
+      "md5": "md5:1cce8583f6f9d5baff67d03c1654ef1e",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part062?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part063",
+      "bytes": 20971520,
+      "sha256": "36fb21d4bea3139c7f1c541cc11b75c9c127dcc124113d9dbad0338f469b0a8b",
+      "md5": "md5:3a08ca81bead25e13dcd13bd819ca8f5",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part063?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part064",
+      "bytes": 20971520,
+      "sha256": "1f72e61c9f79245634f0d51d70853f2265b0e12557dd4d44b4e0d62b2f7b8789",
+      "md5": "md5:59a00f41ae22847d54549deada44320c",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part064?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part065",
+      "bytes": 20971520,
+      "sha256": "1ba63f2c0c0a236b30530a6147d06f2efc8060dc3f06e4545d4c6c2d99ffa49b",
+      "md5": "md5:f1860745f7e4ba249e5836a3163231cf",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part065?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part066",
+      "bytes": 20971520,
+      "sha256": "efeaad382b1f1f9db34569e2054459839424e7472eed067c4d3ff2ede9e00910",
+      "md5": "md5:215baebe2d84d3bbe98aba8b3de19c87",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part066?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part067",
+      "bytes": 20971520,
+      "sha256": "999ff563d7d5ea00bb1785fb133694f60fda025ce9c4f4cb0ff1d36da01eafc5",
+      "md5": "md5:dfa3062ad49fb806c28a63c381c47709",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part067?download=1"
+    },
+    {
+      "name": "mixture-regularisation-gating-1.0.1-checkpoints.zip.part068",
+      "bytes": 5492968,
+      "sha256": "9fc560e6886de6cb987541ea1dc9fe4ccdbb918384ff3a3de544f4651a9a762a",
+      "md5": "md5:e3c005606609c411e0fb9a5ec14d3229",
+      "url": "https://zenodo.org/records/22914503/files/mixture-regularisation-gating-1.0.1-checkpoints.zip.part068?download=1"
+    }
+  ]
+}

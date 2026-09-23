@@ -1,6 +1,6 @@
 {
   "title": "Cap and annealing controls for a late mixture regulariser in an attention autoencoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/PeterPonyu/mixture-regularisation-gating",
   "archive_doi": "10.5281/zenodo.22914503",
   "archive_record": "https://zenodo.org/records/22914503",

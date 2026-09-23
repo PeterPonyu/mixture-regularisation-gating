@@ -6,7 +6,7 @@
       "name": "Fu, Zeyu"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Matched cap and annealing interventions with batch-level gradient accounting for a late mixture-density regulariser. The archive contains the manuscript, vector figures, thirty continuation endpoints, six schedules, saved per-batch exposure records, mixture parameters and analysis code. CPU commands reproduce exposure accounting and robustness checks. Model checkpoints are supplied separately within this archive. The retained model source is an inspection snapshot, not a complete training library; raw-data preprocessing and historical graph rescoring are outside the verified scope.",
   "license": "other-open",
   "notes": "Mixed-license release: author-owned software MIT; author-owned manuscript, figures, generated results and weights CC BY 4.0; third-party original terms retained. See LICENSE and NOTICE.md.",
